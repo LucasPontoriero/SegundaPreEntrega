@@ -1,0 +1,50 @@
+/* Archivo: style.css */
+
+/* Reset de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Un azul muy claro */
+    color: #ffffff; /* Texto blanco */
+}
+
+.hero p {
+    margin-bottom: 15px;
+    color: #333333; /* Gris oscuro para el contraste */
+}
+
+.Formulario {
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.Formulario h4 {
+    margin-bottom: 20px;
+}
+
+.Formulario input[type="text"] {
+    border-radius: 4px;
+}
+
+.Formulario button {
+    cursor: pointer;
+}
+
+footer .enlaces img {
+    filter: invert(1); /* Hace que los iconos sean blancos */
+}
+
+footer .enlaces a:hover img {
+    filter: invert(0.5); /* Hace que los iconos sean de un gris claro al pasar el mouse */
+}
+
+@media screen and (max-width: 840px) {
+    .hero p {
+        font-size: 0.9em;
+    }
+}
